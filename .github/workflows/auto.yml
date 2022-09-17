@@ -2,6 +2,7 @@ name: AutoArchive
 on:
   schedule:
     - cron: '30 1 * * *'
+  workflow_dispatch:
 jobs:
   builds:
     name: AutoArchive
