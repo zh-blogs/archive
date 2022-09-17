@@ -44,4 +44,5 @@ func main() {
 	for i := 0; i < len(websites.data); i++ {
 		api = "https://zh-blogs.icodeq.com/page_archive?url="
 		http.Get(api+websites.data[i].url)
+	}
 }
